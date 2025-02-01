@@ -12,7 +12,7 @@ html,body{
     background-size: cover;
     color: white;
     display: flex;
-    justify-items: center;
+    
 }
 section{
     color: black;
@@ -63,13 +63,13 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-items: center;
+   
     
 }
 #botoes{
     display: flex; 
     justify-content: center;
-    justify-items: center;
+    
 }
 
 #esqueci_senha a{

@@ -15,15 +15,15 @@
             <h1>Login</h1>
            
         </div>
-        <form id="fomr_login" action="cadastro.php" method="post">
+        <form id="fomr_login" action="cadastro.php" method="post" autocomplete="on">
             <div id="dados">
                 <div>
                     <label for="ilogin"><span class="material-symbols-outlined">person</span></label>
-                    <input placeholder="Usuario" type="text" name="" id="ilogin">
+                    <input required autocomplete="email" placeholder="Usuario" type="text" name="" id="ilogin">
                 </div>
                 <div>
                     <label for="isenha"><span class="material-symbols-outlined">passkey</span></label>
-                    <input placeholder="Senha" type="password" name="" id="isenha">
+                    <input required autocomplete="current-password" placeholder="Senha" type="password" name="" id="isenha">
                 </div>
             </div>
             <div id="botoes">
